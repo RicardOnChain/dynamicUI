@@ -1,0 +1,42 @@
+body{
+    padding: 100px;
+
+}
+
+div{
+    position: relative;
+}
+
+#dropdown{
+    width: 25px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.widgetContent{
+    display: none;
+    width: 50px;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 10px;
+}
+
+.visible{
+    gap: 5px;
+    display: flex;
+    position: absolute;
+    top:-55px;
+    left: 15px
+
+
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
