@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 class LinkedList {
     constructor(){
         this.head =  null;
