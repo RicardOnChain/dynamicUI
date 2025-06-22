@@ -184,8 +184,7 @@ class Tree{
         this.height(value, root.right, height=height+1)
         this.height(value, root.left, height=height+1)
         }
-        
-        return root
+
     }
 
 }
